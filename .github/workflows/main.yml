@@ -18,11 +18,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18'  # Usar a versão 18.x do Node.js, conforme especificado no package.json
+          node-version: '18'
+          cache: 'npm'  # Adicionar cache para acelerar a instalação de dependências
 
       # Passo 3: Instalar dependências
       - name: Install dependencies
-        run: npm install
+        run: npm ci  # Usar npm ci para instalações mais confiáveis
 
       # Passo 4: Executar o build
       - name: Build project
@@ -34,7 +35,7 @@ jobs:
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}  # Token do Vercel (será configurado no próximo passo)
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}  # ID da organização Vercel
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}  # ID do projeto Vercel
-          vercel-args: '--prod'  # Implantar em produção
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'
