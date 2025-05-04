@@ -1,0 +1,83 @@
+{
+  "Overlay Integration": {
+    "name": "Overlay Integration",
+    "status": "Not Started",
+    "createdAt": "2025-05-03T19:25:37.588Z",
+    "targetDate": null,
+    "completedAt": null,
+    "components": [
+      "BingoFlash"
+    ],
+    "notes": []
+  },
+  "Backend API": {
+    "name": "Backend API",
+    "status": "Not Started",
+    "createdAt": "2025-05-03T19:25:37.588Z",
+    "targetDate": null,
+    "completedAt": null,
+    "components": [
+      "BingoBackend"
+    ],
+    "notes": []
+  },
+  "Admin Dashboard": {
+    "name": "Admin Dashboard",
+    "status": "Not Started",
+    "createdAt": "2025-05-03T19:25:37.588Z",
+    "targetDate": null,
+    "completedAt": null,
+    "components": [
+      "BingoCore"
+    ],
+    "notes": []
+  },
+  "Appwrite Migration": {
+    "name": "Appwrite Migration",
+    "status": "Not Started",
+    "createdAt": "2025-05-03T19:25:37.588Z",
+    "targetDate": null,
+    "completedAt": null,
+    "components": [
+      "Appwrite",
+      "BingoBackend",
+      "BingoCore"
+    ],
+    "notes": []
+  },
+  "Mobile WebView": {
+    "name": "Mobile WebView",
+    "status": "Not Started",
+    "createdAt": "2025-05-03T19:25:37.588Z",
+    "targetDate": null,
+    "completedAt": null,
+    "components": [
+      "BingoBlitz"
+    ],
+    "notes": []
+  },
+  "Smart TV Support": {
+    "name": "Smart TV Support",
+    "status": "Not Started",
+    "createdAt": "2025-05-03T19:25:37.588Z",
+    "targetDate": null,
+    "completedAt": null,
+    "components": [
+      "BingoFlash"
+    ],
+    "notes": []
+  },
+  "ML Integration": {
+    "name": "ML Integration",
+    "status": "Not Started",
+    "createdAt": "2025-05-03T19:25:37.588Z",
+    "targetDate": null,
+    "completedAt": null,
+    "components": [
+      "BingoCore",
+      "BingoFlash",
+      "BingoBackend"
+    ],
+    "notes": []
+  }
+}
