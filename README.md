@@ -18,3 +18,5 @@ Added browserify-zlib polyfill to fix zlib module error.
 Disabled fs module in Webpack to fix module not found error.
 Added stream-browserify polyfill to fix stream module error.
 Added path-browserify polyfill to fix path module error.
+
+Switched to Yarn, fixed specifier.charCodeAt error, and updated dependency resolutions.
