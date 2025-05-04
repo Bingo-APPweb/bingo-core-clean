@@ -6,7 +6,8 @@ module.exports = function override(config) {
       "url": require.resolve("url/"),
       "zlib": require.resolve("browserify-zlib"),
       "fs": false,
-      "stream": require.resolve("stream-browserify")
+      "stream": require.resolve("stream-browserify"),
+      "path": require.resolve("path-browserify")
     };
     return config;
   };
